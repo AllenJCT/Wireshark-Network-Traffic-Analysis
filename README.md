@@ -15,7 +15,7 @@ To gain hands-on experience capturing and analyzing common protocols, observing 
 - **Guest OS:** Ubuntu (with GUI)  
 - **Wireshark**  
 
-  --
+  ---
 
   # **STEP 1: INSTALL WIRESHARK ON UBUNTU VM**
 
@@ -26,7 +26,8 @@ To gain hands-on experience capturing and analyzing common protocols, observing 
 - click **yes** when prompted
 - sudo usermod -aG $USER
 -   *this gives you root administrator access*
--   ( wireshark install.png )
+
+  ![Wireshark Install](./Wireshark Install.png)
 
 ---
 
@@ -37,7 +38,7 @@ To gain hands-on experience capturing and analyzing common protocols, observing 
 - Select your primary network interface (should be enp0s3)
 - Click on the blue "Shark fin" to start capturing network traffic on your Virtual Machine
 
-caputuring traffic png
+(Wireshark Post-Installation.png)
 
 
 ---
@@ -69,8 +70,9 @@ caputuring traffic png
 
 **Each of these creates unique packet types you can analyze in Wireshark**
 
-picture of runnign different codes . png
-
+(Web traffic.PNG)
+(ICMP Ping.PNG)
+(FTP Install.PNG)
 
 ---
 
@@ -93,7 +95,11 @@ picture of runnign different codes . png
 - **Filter:** tcp.flags.syn == 1 && tcp.flags.ack == 0
     *Shows you all SYN (connection start) packets — useful for spotting scans or malware beaconing out*
 
-  Picture of all the filters . png
+(Filtering DNS Traffic.PNG)
+(Filtering HTTP Traffic.PNG)
+(Filtering FTP Traffic.PNG)
+(Filtering ICMP Traffic.PNG)
+(TCP SYN Scan Detection.PNG)
 
   ---
 
