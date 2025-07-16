@@ -27,7 +27,7 @@ To gain hands-on experience capturing and analyzing common protocols, observing 
 - sudo usermod -aG $USER
 -   *this gives you root administrator access*
 
-  ![Wireshark Install](./Wireshark%20Install.png)
+  ![Wireshark Install](./Wireshark%20Install.PNG)
 
 ---
 
@@ -38,7 +38,7 @@ To gain hands-on experience capturing and analyzing common protocols, observing 
 - Select your primary network interface (should be enp0s3)
 - Click on the blue "Shark fin" to start capturing network traffic on your Virtual Machine
 
-(Wireshark Post-Installation.png)
+![Wireshark Post-Installation](./Wireshark%20Post-Installation.PNG)
 
 
 ---
@@ -70,9 +70,9 @@ To gain hands-on experience capturing and analyzing common protocols, observing 
 
 **Each of these creates unique packet types you can analyze in Wireshark**
 
-(Web traffic.PNG)
-(ICMP Ping.PNG)
-(FTP Install.PNG)
+![Web Traffic](./Web%20traffic.PNG)
+![ICMP Ping](./ICMP%20Ping.PNG)
+![FTP Install](./FTP%20Install.PNG)
 
 ---
 
@@ -95,11 +95,11 @@ To gain hands-on experience capturing and analyzing common protocols, observing 
 - **Filter:** tcp.flags.syn == 1 && tcp.flags.ack == 0
     *Shows you all SYN (connection start) packets — useful for spotting scans or malware beaconing out*
 
-(Filtering DNS Traffic.PNG)
-(Filtering HTTP Traffic.PNG)
-(Filtering FTP Traffic.PNG)
-(Filtering ICMP Traffic.PNG)
-(TCP SYN Scan Detection.PNG)
+![Filtering DNS Traffic](./Filtering%20DNS%20Traffic.PNG)
+![Filtering HTTP Traffic](./Filtering%20HTTP%20Traffic.PNG)
+![Filtering FTP Traffic](./Filtering%20FTP%20Traffic.PNG)
+![Filtering ICMP Traffic](./Filtering%20ICMP%20Traffic.PNG)
+![TCP SYN Scan Detection](./TCP%20SYN%20Scan%20Detection.PNG)
 
   ---
 
