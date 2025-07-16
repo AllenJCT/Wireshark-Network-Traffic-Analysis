@@ -27,7 +27,7 @@ To gain hands-on experience capturing and analyzing common protocols, observing 
 - sudo usermod -aG $USER
 -   *this gives you root administrator access*
 
-  ![Wireshark Install](./Wireshark Install.png)
+  ![Wireshark Install](./Wireshark%20Install.png)
 
 ---
 
