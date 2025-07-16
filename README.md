@@ -19,13 +19,13 @@ To gain hands-on experience capturing and analyzing common protocols, observing 
 
   # **STEP 1: INSTALL WIRESHARK ON UBUNTU VM**
 
-- ''bash
+  **Open Terminal**
 - suduo apt update
 - sudo apt install wireshark -y
 - **wait for install**
 - click **yes** when prompted
 - sudo usermod -aG $USER
--   *this gives you root administrator access*
+    *this gives you root administrator access*
 
   ![Wireshark Install](./Wireshark%20Install.PNG)
 
